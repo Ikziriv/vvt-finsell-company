@@ -28,7 +28,8 @@
                 justify-start
                 text-start
                 lg:text-left
-                mt-8
+                mt-0
+                md:mt-8
                 mr-8
                 py-16
                 md:py-32
@@ -37,15 +38,17 @@
             >
               <div class="flex flex-col w-full">
                 <div class="text-gray-600 mb-8">
-                  <span class="block text-6xl font-extrabold"
+                  <span class="block text-5xl md:text-6xl font-extrabold"
                     >Experience a
                   </span>
-                  <span class="block text-5xl font-thin"> fresh way to</span>
-                  <span class="block text-5xl font-extrabold">
+                  <span class="block text-4xl md:text-5xl font-thin">
+                    fresh way to</span
+                  >
+                  <span class="block text-4xl md:text-5xl font-extrabold">
                     manage money</span
                   >
                 </div>
-                <div class="text-gray-600 max-w-sm">
+                <div class="text-gray-600 max-w-xs md:max-w-sm">
                   <p class="text-sm">
                     Reach your goals with personalized insights, custom budgets,
                     spend tracking, and subscription monitoring—all for free.
@@ -96,7 +99,7 @@
           </button>
         </div>
         <div class="w-full lg:w-1/2 lg:py-6">
-          <div class="flex justify-end">
+          <div class="flex justify-center md:justify-end">
             <img
               src="/img/demo-devices-e.png"
               alt="Finsell responsive design"

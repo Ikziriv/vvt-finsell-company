@@ -2,7 +2,9 @@
   <!-- Notification Update or Promo -->
   <section class="bg-[#3581c4] text-gray-900 py-4 px-8 md:px-12" role="alert">
     <div class="items-center flex leading-none">
-      <div class="rounded-full h-4 w-4 mr-4 bg-white bg-opacity-50"></div>
+      <div
+        class="hidden md:block rounded-full h-4 w-4 mr-4 bg-white bg-opacity-50"
+      ></div>
       <span class="mr-2 text-left text-xs mr-auto text-gray-100"
         >New Feature! It is a long established fact that a reader will be
         distracted.<a

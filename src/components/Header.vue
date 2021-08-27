@@ -4,17 +4,29 @@
       class="
         font-sans
         text-left
-        flex
-        justify-between
+        flex flex-col
+        md:flex-row
+        justify-center
+        md:justify-between
         items-center
         py-4
         mx-auto
         container
         overflow-hidden
-        px-4
+        px-0
+        md:px-4
       "
     >
-      <div class="flex flex-row justify-start">
+      <div
+        class="
+          flex flex-row
+          justify-start
+          md:justify-start
+          w-full
+          px-12
+          nd:px-0
+        "
+      >
         <router-link to="/" class="py-1 mr-4">
           <img src="/img/logo-default.svg" class="h-8 sm:h-8" alt="logo" />
         </router-link>
@@ -25,7 +37,21 @@
           </div>
         </div>
       </div>
-      <ul class="text-sm text-gray-700 list-none p-0 flex items-center">
+      <ul
+        class="
+          text-sm
+          mt-4
+          md:mt-0
+          text-gray-700
+          list-none
+          p-0
+          pl-4
+          md:pl-0
+          flex
+          items-start
+          md:items-center
+        "
+      >
         <li>
           <a
             href="#"
