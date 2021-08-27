@@ -70,10 +70,10 @@
             class="uppercase font-bold tracking-loose text-gray-900"
             >Good Apps for Manage</label
           >
-          <h1 class="my-1 font-normal text-gray-700 mb-2">
+          <h1 class="my-0 font-normal text-gray-700 mb-2 text-sm">
             Your finances, safe and secure
           </h1>
-          <p class="leading-normal mb-4 text-gray-500 font-normal">
+          <p class="leading-normal mb-4 text-gray-500 font-normal text-sm">
             Our top priority is keeping your data secure. With multiple safety
             measures, like secure 256-bit encryption and multi-factor
             authentication, we protect your info like it's our own.
@@ -113,7 +113,7 @@
           <div class="text-left">
             <h1 class="my-4 font-medium uppercase">
               <span class="font-bold">Finsell</span> <br />
-              flow and goals
+              <span class="font-thin">flow and goals</span>
             </h1>
             <p class="leading-tight mt-8 mb-4 max-w-xs mx-8 text-gray-600">
               It works like a finance manager, helping you to create a budget

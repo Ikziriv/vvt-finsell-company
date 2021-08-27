@@ -3,11 +3,11 @@
     <nav
       class="
         font-sans
-        text-center
+        text-left
         flex
         justify-between
         items-center
-        my-4
+        py-4
         mx-auto
         container
         overflow-hidden
@@ -15,11 +15,14 @@
       "
     >
       <div class="flex flex-row justify-start">
-        <router-link to="/" class="mr-3">
+        <router-link to="/" class="py-1 mr-4">
           <img src="/img/logo-default.svg" class="h-8 sm:h-8" alt="logo" />
         </router-link>
-        <div class="font-base text-gray-400 py-2">
-          For <span class="font-semibold">Better</span> Business Management
+        <div class="font-base text-gray-400 py-0 flex flex-col">
+          <span class="font-bold text-md">FINSELL</span>
+          <div class="text-xs">
+            For <span class="font-semibold">Better</span> Business Management
+          </div>
         </div>
       </div>
       <ul class="text-sm text-gray-700 list-none p-0 flex items-center">
