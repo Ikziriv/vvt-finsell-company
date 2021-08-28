@@ -10,6 +10,7 @@
         lg:flex-row
         justify-center
         my-8
+        bg-gray-50
       "
     >
       <div class="w-full h-auto">
@@ -37,15 +38,15 @@
               "
             >
               <div class="flex flex-col w-full">
-                <div class="text-gray-600 mb-8">
+                <div class="text-gray-900 mb-8">
                   <span class="block text-5xl md:text-6xl font-extrabold"
                     >Experience a
                   </span>
                   <span class="block text-4xl md:text-5xl font-thin">
-                    fresh way to</span
+                    Fresh way to</span
                   >
                   <span class="block text-4xl md:text-5xl font-extrabold">
-                    manage money</span
+                    Manage money</span
                   >
                 </div>
                 <div class="text-gray-600 max-w-xs md:max-w-sm">
@@ -53,6 +54,22 @@
                     Reach your goals with personalized insights, custom budgets,
                     spend tracking, and subscription monitoring—all for free.
                   </p>
+                </div>
+                <div class="mt-8 flex flex-row justify-star max-w-xs">
+                  <div class="mr-4">
+                    <a href="">
+                      <div class="bg-gray-50">
+                        <img src="/img/btn/google.webp" />
+                      </div>
+                    </a>
+                  </div>
+                  <div class="mr-4">
+                    <a href="">
+                      <div class="bg-gray-50">
+                        <img src="/img/btn/apple.webp" />
+                      </div>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
