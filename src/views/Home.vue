@@ -146,12 +146,12 @@
           </div>
         </div>
         <div class="col-span-5 md:col-span-3">
-          <div class="flex flex-col sm:flex-row flex-wrap my-8">
+          <div class="grid grid-cols-3 gap-3 my-8">
             <div
               class="
                 w-full
-                sm:w-1/2
-                md:w-1/3
+                col-span-3
+                md:col-span-1
                 flex flex-col
                 items-start
                 justify-start
@@ -198,8 +198,8 @@
             <div
               class="
                 w-full
-                sm:w-1/2
-                md:w-1/3
+                col-span-3
+                md:col-span-1
                 flex flex-col
                 items-start
                 justify-start
@@ -246,15 +246,15 @@
             <div
               class="
                 w-full
-                sm:w-1/2
-                md:w-1/3
+                col-span-3
+                md:col-span-1
                 flex flex-col
                 items-start
                 justify-start
                 h-48
                 md:h-64
                 p-8
-                border-gray-300
+                border-gray-300 border-r
                 shadow-md
                 hover:shadow-lg
                 bg-white
@@ -299,17 +299,17 @@
     <section class="bg-gray-200 py-4 font-sans">
       <div
         class="
-          container container
+          container
           w-full
-          m-auto
-          flex flex-wrap flex-col
-          md:flex-row
+          mx-auto
+          grid grid-cols-3
           items-center
           justify-center
-          px-16
+          px-8
+          md:px-12
         "
       >
-        <div class="w-full lg:w-1/2 p-3">
+        <div class="w-full col-span-3 md:col-span-1 p-3">
           <div
             class="
               flex flex-col
@@ -327,14 +327,53 @@
                 bg-white
                 rounded-b
                 lg:rounded-b-none lg:rounded-r
-                p-4
+                px-8
+                py-4
                 flex flex-col
                 justify-center
                 leading-normal
               "
             >
               <div
-                class="text-gray-700 text-sm leading-relaxed mb-2 leading-tight"
+                class="text-gray-700 text-xs leading-relaxed mb-2 leading-tight"
+              >
+                I am extremely organized, especially when it comes to finances.
+                This app is perfect for all of my financial recording/planning
+                needs. Best money manager!
+              </div>
+              <p class="text-black font-semibold text-xs">
+                <cite>@ikziriv.art</cite>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="w-full col-span-3 md:col-span-1 p-3">
+          <div
+            class="
+              flex flex-col
+              lg:flex-row
+              rounded
+              overflow-hidden
+              h-auto
+              lg:h-32
+              border-b-2 border-blue-500
+              shadow shadow-lg
+            "
+          >
+            <div
+              class="
+                bg-white
+                rounded-b
+                lg:rounded-b-none lg:rounded-r
+                px-8
+                py-4
+                flex flex-col
+                justify-center
+                leading-normal
+              "
+            >
+              <div
+                class="text-gray-700 text-xs leading-relaxed mb-2 leading-tight"
               >
                 Very useful personal finance app for keeping a record for your
                 expenses and reminding you at the end of the day to record your
@@ -346,7 +385,7 @@
             </div>
           </div>
         </div>
-        <div class="w-full lg:w-1/2 p-3">
+        <div class="w-full col-span-3 md:col-span-1 p-3">
           <div
             class="
               flex flex-col
@@ -364,18 +403,19 @@
                 bg-white
                 rounded-b
                 lg:rounded-b-none lg:rounded-r
-                p-4
+                px-8
+                py-4
                 flex flex-col
                 justify-center
                 leading-normal
               "
             >
               <div
-                class="text-gray-700 text-sm leading-relaxed mb-2 leading-tight"
+                class="text-gray-700 text-xs leading-relaxed mb-2 leading-tight"
               >
-                I am extremely organized, especially when it comes to finances.
-                This app is perfect for all of my financial recording/planning
-                needs. Best money manager!
+                If you like to have all your expenses recorded , this
+                application is for you. I do not have to mention, what kind of
+                analysis you can do with your data. Simply perfect!
               </div>
               <p class="text-black font-semibold text-xs">
                 <cite>@ikziriv.art</cite>
