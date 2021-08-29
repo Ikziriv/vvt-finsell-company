@@ -1,29 +1,46 @@
 <script setup>
-import ButtonRepo from '@/components/ButtonRepo.vue'
+import ButtonRepo from "@/components/ButtonRepo.vue";
 </script>
 
 <template>
-  <div class="bg-gray-50">
-    <div
-      class="max-w-screen-xl px-4 py-12 mx-auto sm:px-6 lg:py-16 lg:px-8 lg:flex lg:items-center lg:justify-between"
-    >
-      <h2
-        class="text-3xl font-extrabold leading-9 tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
-      >
-        About Page
-        <br />
-        <span class="text-indigo-600">Vite + Vue 3 + Tailwind CSS</span>
-      </h2>
-      <div class="flex mt-8 lg:flex-shrink-0 lg:mt-0">
-        <div class="inline-flex rounded-md shadow">
-          <router-link
-            to="/"
-            class="inline-flex items-center justify-center px-5 py-3 text-base font-medium leading-6 text-white transition duration-150 ease-in-out bg-indigo-600 border border-transparent rounded-md hover:bg-indigo-500 focus:outline-none"
-            >Back Home</router-link
-          >
-        </div>
-        <ButtonRepo />
+  <div class="w-full h-auto">
+    <section>
+      <div class="rounded-lg bg-gray-200 bg-opacity-50 h-64 overflow-hidden">
+        <img
+          alt="content"
+          class="object-contain object-center h-full w-full"
+          src="/img/about/head-img-about.svg"
+        />
       </div>
-    </div>
+    </section>
+
+    <section class="bg-white py-4 px-8 md:px-16 font-sans">
+      <div class="flex justify-between px-8 py-4 w-full">
+        <div class="flex justify-start">
+          <div class="flex flex-col">
+            <span class="text-left text-3xl font-bold"> Company </span>
+            <span class="text-left text-3-xl font-light"> Information </span>
+            <p class="w-full px-16 mt-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              pariatur quam nam dolore repudiandae dignissimos, magnam quia
+              quibusdam! Similique illum eligendi odit quos perspiciatis et
+              doloribus officia deserunt necessitatibus eum?
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-end">
+          <div class="flex flex-col">
+            <span class="text-left"> Company </span>
+            <span class="text-left"> Information </span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+              pariatur quam nam dolore repudiandae dignissimos, magnam quia
+              quibusdam! Similique illum eligendi odit quos perspiciatis et
+              doloribus officia deserunt necessitatibus eum?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>

@@ -13,7 +13,7 @@
         mx-auto
         container
         overflow-hidden
-        px-0
+        px-2
         md:px-4
       "
     >
@@ -23,8 +23,8 @@
           justify-start
           md:justify-start
           w-full
-          px-12
-          nd:px-0
+          px-6
+          md:px-12
         "
       >
         <router-link to="/" class="py-1 mr-4">
@@ -67,8 +67,8 @@
           >
         </li>
         <li>
-          <a
-            href="#"
+          <router-link
+            to="/article"
             class="
               inline-block
               py-2
@@ -77,12 +77,12 @@
               hover:text-gray-700
               no-underline
             "
-            >Clients</a
+            >Article</router-link
           >
         </li>
         <li>
-          <a
-            href="#"
+          <router-link
+            to="/about"
             class="
               inline-block
               py-2
@@ -91,21 +91,7 @@
               hover:text-gray-700
               no-underline
             "
-            >Blog</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
-            class="
-              inline-block
-              py-2
-              px-3
-              text-gray-900
-              hover:text-gray-700
-              no-underline
-            "
-            >Contact</a
+            >About</router-link
           >
         </li>
       </ul>

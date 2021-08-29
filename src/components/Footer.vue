@@ -43,8 +43,8 @@
           >
         </li>
         <li>
-          <a
-            href="#"
+          <router-link
+            to="/article"
             class="
               inline-block
               py-2
@@ -53,12 +53,12 @@
               hover:text-gray-400
               no-underline
             "
-            >Client</a
+            >Article</router-link
           >
         </li>
         <li>
-          <a
-            href="#"
+          <router-link
+            to="/about"
             class="
               inline-block
               py-2
@@ -67,22 +67,8 @@
               hover:text-gray-400
               no-underline
             "
-            >Blog</a
-          >
-        </li>
-        <li>
-          <a
-            href="#"
-            class="
-              inline-block
-              py-2
-              px-3
-              text-gray-500
-              hover:text-gray-400
-              no-underline
-            "
-            >Contact</a
-          >
+            >About
+          </router-link>
         </li>
       </ul>
       <p class="inline-block mt-4 md:mt-0 md:py-2 px-3 text-gray-700 text-xs">

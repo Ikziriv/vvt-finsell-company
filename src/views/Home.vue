@@ -1,5 +1,10 @@
+<script setup>
+import NotificationMain from "@/components/main/NotificationMain.vue";
+</script>
+
 <template>
   <div class="w-full h-auto">
+    <NotificationMain />
     <section
       class="
         font-sans
