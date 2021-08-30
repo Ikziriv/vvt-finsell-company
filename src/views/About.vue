@@ -14,30 +14,128 @@ import ButtonRepo from "@/components/ButtonRepo.vue";
       </div>
     </section>
 
-    <section class="bg-white py-4 px-8 md:px-16 font-sans">
-      <div class="flex justify-between px-8 py-4 w-full">
-        <div class="flex justify-start">
-          <div class="flex flex-col">
-            <span class="text-left text-3xl font-bold"> Company </span>
-            <span class="text-left text-3-xl font-light"> Information </span>
-            <p class="w-full px-16 mt-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              pariatur quam nam dolore repudiandae dignissimos, magnam quia
-              quibusdam! Similique illum eligendi odit quos perspiciatis et
-              doloribus officia deserunt necessitatibus eum?
-            </p>
+    <section class="bg-white py-4 px-8 md:px-8 font-sans">
+      <div class="grid grid-cols-4 gap-2 px-8 py-4 w-full">
+        <div class="col-span-4 md:col-span-2">
+          <div class="flex justify-start">
+            <div class="flex flex-col">
+              <span class="text-left text-3xl font-bold"> Company </span>
+              <span class="text-left text-3-xl font-light"> Information </span>
+              <p class="w-full px-16 mt-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
+                pariatur quam nam dolore repudiandae dignissimos, magnam quia
+                quibusdam! Similique illum eligendi odit quos perspiciatis et
+                doloribus officia deserunt necessitatibus eum?
+              </p>
+            </div>
           </div>
         </div>
-        <div class="flex justify-end">
-          <div class="flex flex-col">
-            <span class="text-left"> Company </span>
-            <span class="text-left"> Information </span>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
-              pariatur quam nam dolore repudiandae dignissimos, magnam quia
-              quibusdam! Similique illum eligendi odit quos perspiciatis et
-              doloribus officia deserunt necessitatibus eum?
-            </p>
+        <div class="col-span-4 md:col-span-2">
+          <div class="flex justify-end">
+            <div class="flex flex-col py-8 px-4">
+              <div class="grid grid-cols-2 gap-4">
+                <div
+                  class="
+                    col-span-2
+                    md:col-span-1
+                    bg-white
+                    rounded-xl
+                    shadow-xl
+                    hover:shadow-2xl
+                  "
+                >
+                  <div class="flex flex-col">
+                    <img
+                      class="w-64 object-cover rounded-t-md"
+                      src="https://media-exp1.licdn.com/dms/image/C5103AQExcmBV1JrYpw/profile-displayphoto-shrink_200_200/0/1549719260727?e=1635984000&v=beta&t=cRz-tL18c1Y5WjwZCjaPFKDOhIIPPb2IO_jp55nflV4"
+                      alt=""
+                    />
+                    <div class="mt-4 p-4">
+                      <h1 class="text-xl font-bold text-gray-700">
+                        Faisal Ramdan Mulyadi
+                      </h1>
+                      <p class="text-sm mt-0 text-gray-700">
+                        Flutter Engineer <br />
+                        Mobile Developer (Android & iOS)
+                      </p>
+                      <div class="mt-4 mb-2 flex justify-center">
+                        <a
+                          href="https://www.linkedin.com/in/faisalramdan17/"
+                          class="
+                            text-lg
+                            block
+                            font-semibold
+                            py-1
+                            px-6
+                            text-blue-100
+                            hover:text-white
+                            bg-blue-400
+                            rounded-lg
+                            shadow
+                            hover:shadow-md
+                            transition
+                            duration-300
+                            w-full
+                          "
+                        >
+                          Touch Me
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="
+                    col-span-2
+                    md:col-span-1
+                    bg-white
+                    rounded-xl
+                    shadow-xl
+                    hover:shadow-2xl
+                  "
+                >
+                  <div class="flex flex-col">
+                    <img
+                      class="w-64 object-cover rounded-t-md"
+                      src="https://media-exp1.licdn.com/dms/image/C5603AQEaSbAJMPhK-g/profile-displayphoto-shrink_200_200/0/1593303833206?e=1635984000&v=beta&t=2muV6i9BEaqxwF-y5NXrxLROXfVahJ_Z1omlN4_a1bM"
+                      alt=""
+                    />
+                    <div class="mt-4 p-4">
+                      <h1 class="text-xl font-bold text-gray-700">
+                        Rizky Ivan Darmawan
+                      </h1>
+                      <p class="text-sm mt-0 text-gray-700">
+                        Fullstack Developer <br />
+                        Web & Mobile Designer
+                      </p>
+                      <div class="mt-4 mb-2 flex justify-center">
+                        <a
+                          href="https://www.linkedin.com/in/ikziriv/"
+                          class="
+                            text-lg
+                            block
+                            font-semibold
+                            py-1
+                            px-6
+                            text-blue-100
+                            hover:text-white
+                            bg-blue-400
+                            rounded-lg
+                            shadow
+                            hover:shadow-md
+                            transition
+                            duration-300
+                            w-full
+                          "
+                        >
+                          Touch Me
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
