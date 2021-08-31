@@ -132,7 +132,9 @@ import NotificationMain from "@/components/main/NotificationMain.vue";
       </div>
     </section>
 
-    <section class="my-8 font-sans container m-auto w-full mx-auto px-16">
+    <section
+      class="my-8 font-sans container m-auto w-full mx-auto px-8 md:px-16"
+    >
       <div class="grid grid-cols-5 gap-4">
         <div class="col-span-5 md:col-span-2">
           <div class="text-left">
