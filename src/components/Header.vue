@@ -1,100 +1,121 @@
 <template>
-  <header class="bg-white w-full h-auto border-b">
-    <nav
-      class="
-        font-sans
-        text-left
-        flex flex-col
-        md:flex-row
-        justify-center
-        md:justify-between
-        items-center
-        py-4
-        mx-auto
-        container
-        overflow-hidden
-        px-2
-        md:px-4
-      "
-    >
-      <div
-        class="
-          flex flex-row
-          justify-start
-          md:justify-start
-          w-full
-          px-6
-          md:px-12
-        "
-      >
-        <router-link to="/" class="py-1 mr-4">
-          <img src="/img/logo-default.svg" class="h-8 sm:h-8" alt="logo" />
-        </router-link>
-        <div class="font-base text-gray-400 py-0 flex flex-col">
-          <span class="font-bold text-md">FINSELL</span>
-          <div class="text-xs">
-            For <span class="font-semibold">Better</span> Business Management
-          </div>
-        </div>
-      </div>
-      <ul
-        class="
-          text-sm
-          mt-4
-          md:mt-0
-          text-gray-700
-          list-none
-          p-0
-          pl-4
-          md:pl-0
-          flex
-          items-start
-          md:items-center
-        "
-      >
-        <li>
-          <a
-            href="#"
+    <header class="bg-white w-full h-auto border-b">
+        <nav
             class="
-              inline-block
-              py-2
-              px-3
-              text-gray-900
-              hover:text-gray-700
-              no-underline
+                font-sans
+                text-left
+                flex flex-col
+                md:flex-row
+                justify-center
+                md:justify-between
+                items-center
+                py-4
+                mx-auto
+                container
+                overflow-hidden
+                px-2
+                md:px-4
             "
-            >Features</a
-          >
-        </li>
-        <li>
-          <router-link
-            to="/article"
-            class="
-              inline-block
-              py-2
-              px-3
-              text-gray-900
-              hover:text-gray-700
-              no-underline
-            "
-            >Article</router-link
-          >
-        </li>
-        <li>
-          <router-link
-            to="/about"
-            class="
-              inline-block
-              py-2
-              px-3
-              text-gray-900
-              hover:text-gray-700
-              no-underline
-            "
-            >About</router-link
-          >
-        </li>
-      </ul>
-    </nav>
-  </header>
+        >
+            <div
+                class="
+                    flex flex-row
+                    justify-start
+                    md:justify-start
+                    w-full
+                    px-6
+                    md:px-4
+                "
+            >
+                <router-link to="/" class="py-1 mr-4">
+                    <img
+                        src="/img/logo-default.svg"
+                        class="h-8 sm:h-8"
+                        alt="logo"
+                    />
+                </router-link>
+                <div class="font-base text-gray-400 py-0 flex flex-col">
+                    <span class="font-bold text-md">FINSELL</span>
+                    <div class="text-xs">
+                        For <span class="font-semibold">Better</span> Business
+                        Management
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-end">
+                <ul
+                    class="
+                        text-sm
+                        mt-4
+                        md:mt-0
+                        text-gray-700
+                        list-none
+                        p-0
+                        pl-4
+                        md:pl-0
+                        flex
+                        items-start
+                        md:items-center
+                    "
+                >
+                    <li>
+                        <a
+                            href="/feature"
+                            class="
+                                inline-block
+                                py-2
+                                px-3
+                                text-gray-900
+                                hover:text-gray-700
+                                no-underline
+                            "
+                            >Features</a
+                        >
+                    </li>
+                    <li>
+                        <a
+                            href="/price"
+                            class="
+                                inline-block
+                                py-2
+                                px-3
+                                text-gray-900
+                                hover:text-gray-700
+                                no-underline
+                            "
+                            >Pricing</a
+                        >
+                    </li>
+                    <li>
+                        <router-link
+                            to="/article"
+                            class="
+                                inline-block
+                                py-2
+                                px-3
+                                text-gray-900
+                                hover:text-gray-700
+                                no-underline
+                            "
+                            >Article</router-link
+                        >
+                    </li>
+                    <li>
+                        <router-link
+                            to="/about"
+                            class="
+                                inline-block
+                                py-2
+                                px-3
+                                text-gray-900
+                                hover:text-gray-700
+                                no-underline
+                            "
+                            >About</router-link
+                        >
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 </template>
