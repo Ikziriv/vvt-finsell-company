@@ -1,5 +1,6 @@
 import { createApp } from 'vue'
 import './tailwind.css'
+import 'css-doodle';
 import App from './App.vue'
 import { routes } from './routes.js'
 import { createRouter, createWebHistory } from 'vue-router'

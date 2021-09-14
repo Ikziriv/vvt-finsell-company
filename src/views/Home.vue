@@ -37,14 +37,13 @@ import NotificationMain from '@/components/main/NotificationMain.vue'
                                 lg:text-left
                                 mt-0
                                 md:mt-8
-                                ml-8
                                 py-16
                                 md:py-32
                                 px-8
                             "
                         >
                             <div class="flex flex-col w-full">
-                                <div class="text-gray-900 mb-8">
+                                <div class="text-gray-900 mb-8 ml-0 md:ml-16">
                                     <span
                                         class="
                                             block
@@ -76,7 +75,7 @@ import NotificationMain from '@/components/main/NotificationMain.vue'
                                     >
                                 </div>
                                 <div class="text-gray-600 max-w-xs md:max-w-sm">
-                                    <p class="text-sm">
+                                    <p class="text-sm ml-0 md:ml-16">
                                         Reach your goals with personalized
                                         insights, custom budgets, spend
                                         tracking, and subscription
@@ -89,6 +88,8 @@ import NotificationMain from '@/components/main/NotificationMain.vue'
                                         flex flex-row
                                         justify-star
                                         max-w-xs
+                                        ml-0
+                                        md:ml-16
                                     "
                                 >
                                     <div class="mr-4">
@@ -270,8 +271,10 @@ import NotificationMain from '@/components/main/NotificationMain.vue'
                                     mt-4
                                     text-start text-gray-700
                                     leading-normal
-                                    hidden
+                                    block
+                                    md:hidden
                                     hover:block
+                                    text-sm
                                 "
                             >
                                 Personalized Mintsights™ make your money go
@@ -327,8 +330,10 @@ import NotificationMain from '@/components/main/NotificationMain.vue'
                                     mt-4
                                     text-start text-gray-700
                                     leading-normal
-                                    hidden
+                                    block
+                                    md:hidden
                                     hover:block
+                                    text-sm
                                 "
                             >
                                 Improve your spending habits with custom goals
@@ -384,8 +389,10 @@ import NotificationMain from '@/components/main/NotificationMain.vue'
                                     mt-4
                                     text-start text-gray-700
                                     leading-normal
-                                    hidden
+                                    block
+                                    md:hidden
                                     hover:block
+                                    text-sm
                                 "
                             >
                                 See where all your money goes by easily adding

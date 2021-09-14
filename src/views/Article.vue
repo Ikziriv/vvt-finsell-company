@@ -17,7 +17,7 @@ import NotificationArticle from '@/components/article/NotificationArticle.vue'
                 "
             >
                 <div class="flex justify-start">
-                    <div class="text-left mr-4 py-1">
+                    <div class="text-left mr-0 py-1">
                         <span>Finsell - Article</span>
                     </div>
                 </div>
@@ -73,6 +73,7 @@ import NotificationArticle from '@/components/article/NotificationArticle.vue'
                 </div>
             </div>
         </section>
+
         <section class="font-sans grid grid-cols-2 gap-4 px-8 md:px-16">
             <div class="col-span-2 md:col-span-1">
                 <img src="/img/article/head-img-article.svg" alt="" />
@@ -86,28 +87,28 @@ import NotificationArticle from '@/components/article/NotificationArticle.vue'
                     items-start
                     justify-center
                     text-left
-                    ml-0
-                    md:ml-20
                     p-4
                     md:p-8
                 "
             >
-                <spam class="mb-2"><small>Financial Planning</small></spam>
-                <h1 class="font-bold text-2xl md:text-4xl mb-4">
-                    Guide to Organizing <br />
-                    Your Finance
-                </h1>
-                <span
-                    class="
-                        leading-normal
-                        mb-4
-                        w-2/3
-                        text-gray-700
-                        font-semibold
-                    "
-                >
-                    Read More
-                </span>
+                <div class="ml-0 md:ml-20">
+                    <spam class="mb-2"><small>Financial Planning</small></spam>
+                    <h1 class="font-bold text-2xl md:text-4xl mb-4">
+                        Guide to Organizing <br />
+                        Your Finance
+                    </h1>
+                    <span
+                        class="
+                            leading-normal
+                            mb-4
+                            w-2/3
+                            text-gray-700
+                            font-semibold
+                        "
+                    >
+                        Read More
+                    </span>
+                </div>
             </div>
         </section>
 
