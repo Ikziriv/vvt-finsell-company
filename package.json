@@ -9,7 +9,7 @@
     "format": "prettier .  --write"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^1.22.3",
+    "@supabase/supabase-js": "^1.23.0",
     "core-js": "^3.16.3",
     "css-doodle": "^0.19.2",
     "gsap": "^3.7.1",
